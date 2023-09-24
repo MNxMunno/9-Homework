@@ -661,7 +661,7 @@ nav {
   line-height: 25.6px; /* 142.222% */
 }
 
-.right-icon b:hover {
+.right-icon a:hover {
   color: #ffa800;
 }
 
@@ -687,6 +687,11 @@ nav {
 
   .card_ {
     text-align: center;
+  }
+
+  .right-icon {
+    display: flex;
+    justify-content: center;
   }
 
   .right-icon img {
